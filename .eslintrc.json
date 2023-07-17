@@ -34,6 +34,7 @@
     "@typescript-eslint/no-shadow": [0],
     "react/no-unstable-nested-components": [0],
     "vars-on-top": [0],
-    "no-var": [0]
+    "no-var": [0],
+    "consistent-return": [0]
   }
 }
