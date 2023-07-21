@@ -5,7 +5,6 @@ import {
   FieldValues, SubmitHandler, useForm,
 } from 'react-hook-form';
 import dynamic from 'next/dynamic';
-import { title } from 'process';
 import axios from 'axios';
 import { toast } from 'react-hot-toast';
 import { useRouter } from 'next/navigation';
@@ -63,6 +62,7 @@ const RentModal = () => {
   const bathroomCount = watch('bathroomCount');
   const imageSrc = watch('imageSrc');
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const Map = useMemo(() => dynamic(() => import('../Map'), { ssr: false }), [location]);
 
   const setCustomValue = (id: string, value: any) => {

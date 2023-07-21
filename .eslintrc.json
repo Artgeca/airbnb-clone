@@ -14,14 +14,14 @@
         "namedComponents": "arrow-function"
       }
     ],
-    "@typescript-eslint/no-unused-vars": [1],
     "react/react-in-jsx-scope": [0],
     "react/jsx-max-props-per-line": [1, { "maximum": 1 }],
     "react/jsx-indent-props": [2, 2],
     "react/jsx-first-prop-new-line": [2, "multiline"],
     "jsx-quotes": [1, "prefer-single"],
     "object-curly-newline": [1, { "multiline": true, "minProperties": 3 }],
-    "no-unused-vars": [1],
+    "no-unused-vars": [0],
+    "@typescript-eslint/no-unused-vars": [0],
     "no-underscore-dangle": [0],
     "no-param-reassign": [0],
     "no-plusplus": [0],
