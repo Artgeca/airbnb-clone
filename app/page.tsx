@@ -1,3 +1,6 @@
+/* eslint-disable import/first */
+export const dynamic = 'force-dynamic';
+
 import getCurrentUser from './actions/getCurrentUser';
 import getListings, { IListingParams } from './actions/getListings';
 
